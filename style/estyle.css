@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/pilares-da-criacao.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+header {
+    background-color: rgba(31, 31, 63, 0.8);
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #c7a8a8;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: rgba(31, 31, 63, 0.8);
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav p {
+    color: #020100;
+}
+
+
+.conteudo {
+    background-color: rgba(186, 139, 224, 0.452);
+    padding: 10px;
+    text-align: center;
+    max-width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+
+.conteudo p {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #c7a8a8;
+    border-radius: 5px;
+}
+
+.big-bang {
+    background-image: url('../img/big-bang.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.formacao-das-estrelas {
+    background-image: url('../img/bercario.png');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.galaxia {
+    background-image: url('../img/galaxia.png');
+     position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.sistema-solar {
+    background-image: url('../img/solar-system.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.p-branco {
+    color: #ffffff;
+
+}
+
+.origem-da-vida {
+    background-image: url('../img/origem-da-vida.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.evolucao-estelar {
+    background-image: url('../img/evolucao-estelar.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.futuro {
+    background-image: url('../img/futuro.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.curiosidades-b {
+    background-image: url('../img/fundo.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.curiosidade {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+figure img {
+    max-width: 100%;
+    display: block;
+}
+
+figcaption {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
